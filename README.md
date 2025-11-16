@@ -53,20 +53,20 @@ The application's core logic is built on a sophisticated dual-model system:
 
 3.  **Install the required libraries:**
     ```bash
-    pip install streamlit pandas numpy scikit-learn joblib matplotlib plotly lime
+    pip install streamlit pandas numpy scikit-learn joblib matplotlib plotly lime pyngrok
     ```
 
-4.  **Download the Dataset**: Ensure you have the `adult.csv` dataset in the same directory as the script.
+4.  **Download the Dataset**: Ensure you have the `adult 3.csv` dataset in the same directory as the script.
 
 5.  **Train the Models (First-Time Setup)**: Before running the app, you need to train the models. The app provides a button to do this, or you can run the following command in your terminal:
     ```bash
-    streamlit run salary_app_dual_refined.py train
+    streamlit run salary_app_dual.py train
     ```
-    This will create three files: `stacked_classifier_model_v4.pkl`, `stacked_regressor_model_v4.pkl`, and `preprocessor_dual_v4.pkl`.
+    This will create three files: `stacked_classifier_model_v3.pkl`, `stacked_regressor_model_v3.pkl`, and `preprocessor_dual_v3.pkl`.
 
 6.  **Run the Application**:
     ```bash
-    streamlit run salary_app_dual_refined.py
+    streamlit run salary_app_dual.py
     ```
     The application will open in your web browser.
 
